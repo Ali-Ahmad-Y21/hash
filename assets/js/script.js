@@ -1,11 +1,11 @@
-let number = [1,2,3,4,5]
-console.log(number.length-1)
-let sliced = number.slice(2,4)
-console.log(number.length-1)
-console.log(sliced)
-console.log(number)
-number.splice(1,3,20,30,40,50)
-console.log(number)
+// let number = [1,2,3,4,5]
+// console.log(number.length-1)
+// let sliced = number.slice(2,4)
+// console.log(number.length-1)
+// console.log(sliced)
+// console.log(number)
+// number.splice(1,3,20,30,40,50)
+// console.log(number)
 
 
 // const accounts01 =[["admin01", "123"],["admin02", "234"],["admin03", "345"]]
@@ -49,3 +49,12 @@ console.log(number)
 //         console.log(`worng name chekout this names${users.name}`)
 //     }
 // }
+let person = {
+    name:"ahmad",
+    age:"22",
+    state:"lebanon",
+    greet: function(){
+        console.log(`hello my name is ${rhis.name}`)
+    }
+}
+alert(person.name)
