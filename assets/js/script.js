@@ -51,11 +51,15 @@
 // }
 let person = {
     name:"ahmad",
+    maiddlename:"saad",
+    "lasname":"yassine",
     age:"22",
     state:"lebanon",
     greet: function(){
-        console.log(`hello my name is ${this.name}`)
+        console.log(`hello my name is ${person.name}`)
     }
 }
-console.log(`my name is ${person.name} and im ${person.age} years old, living in ${person.state}`)
-console.log(person.greet())
+console.log(`my name is ${person.name} ${person['middlename']} ${person.state}`)
+
+// // console.log(`my name is ${person.name} and im ${person.age} years old, living in ${person.state}`)
+// console.log(person.greet())
