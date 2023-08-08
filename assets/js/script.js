@@ -54,7 +54,8 @@ let person = {
     age:"22",
     state:"lebanon",
     greet: function(){
-        console.log(`hello my name is ${rhis.name}`)
+        console.log(`hello my name is ${this.name}`)
     }
 }
-alert(person.name)
+console.log(`${person.name}mohsinnnnnnn`)
+console.log(person.greet())
